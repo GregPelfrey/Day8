@@ -1,0 +1,13 @@
+
+
+
+	<% @sixtes_artists.each do |rocker| %><br>
+	<br>
+	<strong><%= rocker[:first_name] %></strong>	
+	<strong><%= rocker[:last_name] %></strong><br>
+	<% rocker[:hits].each do |song| %>
+	<strong><%= song %></strong>--
+	<% end %>
+
+
+<% end %>

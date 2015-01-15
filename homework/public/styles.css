@@ -1,0 +1,61 @@
+body	{
+	height: 50%;
+	width: 50%;
+	background-image: url("/backpic.jpg");
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-color: white;
+  	font-size: 22px;
+}
+
+.navbar {
+	position: relative;
+	margin: auto;
+	top: 10px;
+	list-style-type: none;
+	color: yellow;
+	text-align: center;
+}
+
+.navbar ul {
+	padding: 0;
+
+}
+
+.navbar ul li{
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'Lobster', cursive;
+	font-size: 65px;
+	font-weight: bold;
+	top: 25px;
+}
+
+.navbar ul li:after {
+  content: "   ";
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+
+.banner {
+	top: 20px;
+	color: #0404b4;
+	font-family: 'Rock Salt', cursive;
+	font-size: 45px;
+	font-weight: bolder;
+	vertical-align: center;
+	text-align: center;
+
+
+}
+
+}
+/*.backpic {
+	height:	25%;
+	width: 25%;
+	back
+}*/
+
+
